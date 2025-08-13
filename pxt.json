@@ -1,11 +1,11 @@
 {
-    "name": "test cutebot",
+    "name": "Remote Cutebot",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "cutebot": "github:league-microbit/pxt-cutebot#master"
+        "cutebot": "github:league-microbit/pxt-cutebot#v1.20250813.9"
     },
     "files": [
         "main.blocks",
