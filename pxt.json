@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "cutebot": "github:league-microbit/pxt-cutebot#v1.20250813.9"
+        "cutebot": "github:league-microbit/pxt-cutebot#master"
     },
     "files": [
         "main.blocks",
