@@ -1,12 +1,12 @@
 {
     "name": "Remote Cutebot",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "cutebot": "github:league-microbit/pxt-cutebot#v1.20250813.11"
+        "cutebot": "github:league-microbit/pxt-cutebot#v1.20250814.1"
     },
     "files": [
         "main.blocks",
