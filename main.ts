@@ -27,6 +27,7 @@ radiop.onReceiveJoystickMessage(function (payload) {
     }
     cuteBot.controlMotors(payload)
     radiop.sendBotStateSonar(cuteBot.ultrasonic(cuteBot.SonarUnit.Centimeters))
+    radiop.getImage(payload).showImage(0)
 })
 input.onButtonPressed(Button.B, function () {
     radiop.sendBotStateTone(4, 10, BeatFraction.Whole)
