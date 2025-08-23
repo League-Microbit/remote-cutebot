@@ -23,11 +23,8 @@ radiop.onReceiveJoystickMessage(function (payload) {
         cuteBot.flashUniqueHeadlights()
     } else {
         cuteBot.setUniqueHeadlights()
-        radiop.sendBotStateImage(IconNames.Pitchfork)
     }
     cuteBot.controlMotors(payload)
-    radiop.sendBotStateSonar(cuteBot.ultrasonic(cuteBot.SonarUnit.Centimeters))
-    radiop.getImage(payload).showImage(0)
 })
 input.onButtonPressed(Button.B, function () {
     radiop.sendBotStateTone(4, 10, BeatFraction.Whole)
